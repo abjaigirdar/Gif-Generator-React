@@ -102,6 +102,10 @@ body {
   flex-direction: column;
 }
 
+.gif--div {
+  max-width:fit-content;
+}
+
 .container {
   display: flex;
   flex-direction: column;
