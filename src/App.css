@@ -18,7 +18,7 @@ body {
 
 .logo {
   width: 100%;
-  padding: 1wh;
+  padding: 2vh;
   will-change: filter;
   transition: filter 300ms;
   border: solid 2px black;

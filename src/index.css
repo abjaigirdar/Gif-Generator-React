@@ -61,7 +61,7 @@ button:focus-visible {
 }
 
 /* @media (prefers-color-scheme: light) { */
-  @media (max-width: 412px) {
+  @media (max-width: 350px) {
   :root {
     color: #213547;
     background-color: #ffffff;
@@ -85,22 +85,25 @@ button:focus-visible {
     font-size: 2em;
   }
   .App {
-    max-width: 50vh;
+  max-width: 55vh;
+  gap: 0;
+  padding: .5vh;
+  margin-top: 0;
   }
   .nav--main-div {
     display: flex;
     align-items: center;
     justify-content: center;
     /* justify-content:space-between; */
-    padding: 3vh 1vh 3vh 1vh;
-    height: 3vh;
+    padding: 1vh 1vh 1vh 1vh;
+    height: 6vh;
     border-radius: 1.3vh 1.3vh 0 0;
     gap: 0;
     background-color: #d0b955;
   }
     .nav--main-div > h3 {
     color: antiquewhite;
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: 'Bebas Neue', cursive;
     text-shadow: rgb(0, 47, 234) 4px 4px 2px;
   }
@@ -122,6 +125,7 @@ button:focus-visible {
     font-family: 'Bebas Neue', cursive;
     text-shadow: rgb(255, 235, 225) 1px 0 20px;
   }
+
   .container {
     display: flex;
     flex-direction: column;
@@ -131,12 +135,13 @@ button:focus-visible {
     padding: .5vh;
   }
   .gif--div {
-    max-width:100%;
+    max-width: 100%;
+    height: auto;
   }
   .search--label {
     width: 100%;
     align-self: center;
-    font-size: 1.3em; 
+    font-size: 1.1em; 
   }
   .input {
     /* font-family: 'Inter', sans-serif; */
@@ -145,5 +150,21 @@ button:focus-visible {
     font-size: 1.5em;
     width: 100%;
     margin-bottom: 1vh;
+  }
+  .logo {
+    width: 100%;
+    padding: 1vh;
+    will-change: filter;
+    transition: filter 300ms;
+    border: solid 2px black;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 2.5vh;
+    font-size: 1.2em;
+    background-color: #FC0;
+  }
+  a {
+    font-size: 1em;
+    color: #0f1256;
+    text-decoration: inherit;
   }
   }
