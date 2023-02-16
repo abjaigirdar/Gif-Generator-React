@@ -5,5 +5,4 @@ Here's the link to GIPHY API developer site:https://developers.giphy.com/<br>
 Let me know how you liked it. <br>
 Thank you <br>
 
-
-![Screenshot 2023-02-16 005057](https://user-images.githubusercontent.com/88939208/219280000-e6b69974-2c6c-4c7a-bb73-61fe2368b97f.png)
+![Recording 2023-02-16 at 00 56 18](https://user-images.githubusercontent.com/88939208/219280744-7db5a6bb-7534-469d-99dd-bca2ce6892ae.gif)
