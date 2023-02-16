@@ -9,10 +9,8 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <div className="main-container">
-      <Tag />
+      <Tag className="hero--main"/>
       <Footer/>
-      </div>
     </div>
   );
 }

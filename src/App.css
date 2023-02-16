@@ -1,5 +1,5 @@
 #root {
-  max-width: 1280px;
+  max-width: 50vh;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -13,34 +13,33 @@ body {
 .App {
   background-color: aliceblue;
   border-radius: 15px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .logo {
   width: 100%;
-  padding: 10px;
+  padding: 1wh;
   will-change: filter;
   transition: filter 300ms;
   border: solid 2px black;
   font-family: 'Bebas Neue', cursive;
-  margin-bottom: 40px;
-  font-size: 30px;
+  margin-bottom: 2.5vh;
+  font-size: 2.2em;
   background-color: #FC0;
 }
 
 .search--label {
   width: 100%;
   align-self: center;
-  font-size:30px;
+  font-size:2em;
   
 }
 
 .input {
   /* font-family: 'Inter', sans-serif; */
   font-family: 'Bebas Neue', cursive;
-  text-indent: 5px;
-  font-weight: 600;
-  font-size: 28px;
+  text-indent: .2em;
+  font-size: 2em;
   width: 100%;
   margin-bottom: 10px;
 }
@@ -54,13 +53,12 @@ body {
 
 .nav--title > img {
   height: 100%;
-  margin-right: 5px;
+  margin-right: 1vh;
 }
 
 .nav--title > h3 {
   color: antiquewhite;
-  font-weight: 900;
-  font-size: 45px;
+  font-size: 2.9em;
   font-family: 'Bebas Neue', cursive;
   text-shadow: rgb(0, 47, 234) 4px 4px 2px;
 }
@@ -78,9 +76,9 @@ body {
   align-items: center;
   justify-content: center;
   /* justify-content:space-between; */
-  padding: 20px 50px 20px 50px;
-  height: 50px;
-  border-radius: 15px 15px 0 0;
+  padding: 2vh 3vh 2vh 3vh;
+  height: 3.5vh;
+  border-radius: 1.3vh 1.3vh 0 0;
   gap: 100px;
   background: linear-gradient(180deg, rgb(192, 159, 28) 1.14%, #FC0 100%);
 }
@@ -88,7 +86,7 @@ body {
 .nav--main-div > h3 {
   color: white;
   font-weight: 600;
-  font-size: 27px;
+  font-size: 2em;
   font-family: 'Bebas Neue', cursive;
   text-shadow: rgb(255, 235, 225) 1px 0 20px;
 }
@@ -111,14 +109,17 @@ body {
   gap: 10px;
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  padding: 2vh;
+}
 
+.container > h1 {
+  margin: 0;
 }
 
 .footer--title > i {
   color: white;
   font-weight: 900;
-  font-size: 35px;
+  font-size: 2em;
   text-shadow: rgb(76, 92, 165) 1px 0 6px;
 }
 
@@ -127,24 +128,24 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
-  gap: 20px;
+  gap: 1vh;
 }
 
 .footer--main-div {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
-  height: 50px;
+  padding: 2vh;
+  height: 2vh;
   border-radius: 0 0 15px 15px;
-  gap: 40px;
+  gap: 4vh;
   background: rgb(185, 236, 254);
 }
 
-.footer--main-div > h3 {
+.footer--main-div > h3{
   color: black;
   font-weight: 600;
-  font-size: 27px;
+  font-size: 1.4em;
   font-family: 'Bebas Neue', cursive;
   text-shadow: rgb(255, 235, 225) 1px 0 20px;
 }

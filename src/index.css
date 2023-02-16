@@ -14,14 +14,13 @@
   -webkit-text-size-adjust: 100%;
 
   background-image: url("../assets/bg.jpeg");
-  min-height: 900px; 
+  min-height: 70vh; 
   background-repeat: no-repeat; 
   background-size: auto;
 }
 
 a {
-  font-weight: 900;
-  font-size: 30px;
+  font-size: 1.8em;
   color: #0f1256;
   text-decoration: inherit;
 }
@@ -34,7 +33,7 @@ body {
   display: flex;
   place-items: center;
   /* min-width: 320px; */
-  min-height: 100vh;
+  min-height: 50vh;
 }
 
 h1 {
@@ -62,7 +61,7 @@ button:focus-visible {
 }
 
 /* @media (prefers-color-scheme: light) { */
-  @media only screen and (min-width: 400px) {
+  @media (max-width: 412px) {
   :root {
     color: #213547;
     background-color: #ffffff;
@@ -81,12 +80,83 @@ button:focus-visible {
     background-size: auto;
     place-items: center;
     }
-}
 
-/* @media only screen and (min-width: 400px) {
-  body {
-    font-family: 'Bebas Neue', cursive;
-    background-image: url("../assets/bg.jpeg");
-    background-size:contain;
+    h1 {
+      font-size: 2em;
+      line-height: 1;
     }
-} */
+    .container > h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    .App {
+      max-width: 40vh;
+    }
+
+    .nav--title > h3 {
+      color: antiquewhite;
+      font-size: 2em;
+      font-family: 'Bebas Neue', cursive;
+      text-shadow: rgb(0, 47, 234) 4px 4px 2px;
+    }
+
+    .footer--main-div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2vh;
+      height: 2vh;
+      border-radius: 0 0 15px 15px;
+      gap: 3vh;
+      background: rgb(185, 236, 254);
+    }
+    
+    .footer--main-div > h3{
+      color: black;
+      font-weight: 600;
+      font-size: 1.1em;
+      font-family: 'Bebas Neue', cursive;
+      text-shadow: rgb(255, 235, 225) 1px 0 20px;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      align-items: center;
+      justify-content: center;
+      padding: .5vh;
+    }
+
+    .gif--div {
+      max-width:100%;
+    }
+
+    .search--label {
+      width: 100%;
+      align-self: center;
+      font-size: 1.5em; 
+    }
+    .input {
+      /* font-family: 'Inter', sans-serif; */
+      font-family: 'Bebas Neue', cursive;
+      text-indent: .2em;
+      font-size: 1.5em;
+      width: 100%;
+      margin-bottom: 1vh;
+    }
+
+    .nav--main-div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* justify-content:space-between; */
+      padding: 2vh 3vh 2vh 3vh;
+      height: 3vh;
+      border-radius: 1.3vh 1.3vh 0 0;
+      gap: 1vh;
+      background: linear-gradient(180deg, rgb(192, 159, 28) 1.14%, #FC0 100%);
+    }
+
+  }
