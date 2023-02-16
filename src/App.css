@@ -162,3 +162,10 @@ body {
   font-family: 'Bebas Neue', cursive;
   text-shadow: rgb(255, 235, 225) 1px 0 20px;
 }
+
+.arrow--div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vh;
+}
