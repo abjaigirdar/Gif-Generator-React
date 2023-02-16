@@ -17,8 +17,11 @@ const Tag = () => {
                         <h2 className='search--label'> Enter a Word or phrase to search </h2>
                         <i class="fa-sharp fa-solid fa-arrow-down"></i>
                     </div>
-                    <input value={tag} onChange = {(e)=> setTag(e.target.value)} className="input"/>
-                    <button onClick = {()=> fetchGif(tag)} className="logo">GENERATE NEW GIF</button>
+                    <div className='buttons'>
+                        <input value={tag} onChange = {(e)=> setTag(e.target.value)} className="input"/>                       
+                        <button onClick = {()=> fetchGif(tag)} className="logo">GENERATE NEW GIF</button>
+                        <a href={gif} download='image' class="download-btn" target="_blank">Get the Embed code</a>
+                    </div>
                 </div>
         </div>
     )

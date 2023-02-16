@@ -21,7 +21,7 @@ body {
   transition: filter 300ms;
   border: solid 2px black;
   font-family: 'Bebas Neue', cursive;
-  margin-bottom: 2.5vh;
+  margin-bottom: 1vh;
   font-size: 2.2em;
   background-color: #FC0;
 }
@@ -38,7 +38,6 @@ body {
   font-family: 'Bebas Neue', cursive;
   text-indent: .2em;
   font-size: 2em;
-  width: 100%;
   margin-bottom: 10px;
 }
 
@@ -159,4 +158,36 @@ body {
   align-items: center;
   justify-content: center;
   gap: 1vh;
+}
+
+.download-btn{
+  background-color: DodgerBlue;
+  color: white;
+  padding: 2vh;
+  font-size: 2.2em;
+  text-decoration: none;
+  border-radius:5px;
+  text-shadow: 3px 3px 2px #000000;
+  border: solid 2px #000000;
+  text-align: center;
+}
+
+.download-btn:hover {
+  background-color: RoyalBlue;
+}
+
+/* width: 100%;
+padding: 2vh;
+will-change: filter;
+transition: filter 300ms;
+border: solid 2px black;
+font-family: 'Bebas Neue', cursive;
+margin-bottom: 2.5vh;
+font-size: 2.2em;
+background-color: #FC0; */
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
