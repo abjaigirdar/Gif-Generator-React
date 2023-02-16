@@ -1,5 +1,5 @@
 #root {
-  max-width: 50vh;
+  max-width: 60vh;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -51,44 +51,57 @@ body {
   filter: drop-shadow(0 0 1em #61dafbaa);
 }
 
-.nav--title > img {
-  height: 100%;
+.nav--main-div > img {
+  height: 10vh;
   margin-right: 1vh;
 }
 
-.nav--title > h3 {
-  color: antiquewhite;
-  font-size: 2.9em;
-  font-family: 'Bebas Neue', cursive;
-  text-shadow: rgb(0, 47, 234) 4px 4px 2px;
-}
-
-.nav--title {
+/* .nav--title {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 250%;
 
-}
+} */
 
 .nav--main-div {
   display: flex;
   align-items: center;
   justify-content: center;
   /* justify-content:space-between; */
-  padding: 2vh 3vh 2vh 3vh;
-  height: 3.5vh;
+  padding: 1vh 1vh 1vh 1vh;
+  height: 4vh;
+  padding: 1vh 2vh 1vh 2vh;
   border-radius: 1.3vh 1.3vh 0 0;
-  gap: 100px;
-  background: linear-gradient(180deg, rgb(192, 159, 28) 1.14%, #FC0 100%);
+  gap: 1vh;
+  background-color: #d0b955
+  /* background: linear-gradient(180deg, rgb(192, 159, 28) 1.14%, #FC0 100%); */
 }
 
 .nav--main-div > h3 {
-  color: white;
+  color: rgb(239, 239, 239);
   font-weight: 600;
-  font-size: 2em;
+  font-size: 2.9em;
   font-family: 'Bebas Neue', cursive;
-  text-shadow: rgb(255, 235, 225) 1px 0 20px;
+  background-color: #d0b955;
+  color: #bc2e1e;
+  text-shadow:
+    0 1px 0px #378ab4,
+    1px 0 0px #5dabcd,
+    1px 2px 1px #378ab4,
+    2px 1px 1px #5dabcd,
+    2px 3px 2px #378ab4,
+    3px 2px 2px #5dabcd,
+    3px 4px 2px #378ab4,
+    4px 3px 3px #5dabcd,
+    4px 5px 3px #378ab4,
+    5px 4px 2px #5dabcd,
+    5px 6px 2px #378ab4,
+    6px 5px 2px #5dabcd,
+    6px 7px 1px #378ab4,
+    7px 6px 1px #5dabcd,
+    7px 8px 0px #378ab4,
+    8px 7px 0px #5dabcd;
 }
 
 .details {
