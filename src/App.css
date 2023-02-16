@@ -7,14 +7,13 @@
 
 body {
   font-family: 'Bebas Neue', cursive;
-  background-image: url("../assets/bg.jpeg");
-  background-size: cover;
-
+  /* background-image: url("../assets/bg.jpeg"); */
 }
 
 .App {
   background-color: aliceblue;
   border-radius: 15px;
+  margin-top: 80px;
 }
 
 .logo {
