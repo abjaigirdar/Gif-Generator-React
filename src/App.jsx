@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Tag className="hero--main"/>
+      <Tag/>
       <Footer/>
     </div>
   );

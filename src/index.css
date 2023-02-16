@@ -66,6 +66,15 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
   }
+
+  #root {
+    max-width: 55vh;
+    height: 100%;
+    margin: 5vh 0 3vh 0;
+    padding: 0 1rem 0 1rem;
+    text-align: center;
+  }
+
   a:hover {
     color: #747bff;
   }
@@ -91,21 +100,21 @@ button:focus-visible {
   margin-top: 0;
   }
   .nav--main-div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* justify-content:space-between; */
-    padding: 1vh 1vh 1vh 1vh;
-    height: 6vh;
-    border-radius: 1.3vh 1.3vh 0 0;
-    gap: 0;
-    background-color: #d0b955;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* justify-content:space-between; */
+  padding: 1vh 1vh 1vh 1vh;
+  height: 6vh;
+  border-radius: 1.3vh 1.3vh 0 0;
+  gap: 0;
+  background-color: #d0b955;
   }
-    .nav--main-div > h3 {
-    color: antiquewhite;
-    font-size: 1.5em;
-    font-family: 'Bebas Neue', cursive;
-    text-shadow: rgb(0, 47, 234) 4px 4px 2px;
+  .nav--main-div > h3 {
+  color: antiquewhite;
+  font-size: 1.5em;
+  font-family: 'Bebas Neue', cursive;
+  text-shadow: rgb(0, 47, 234) 4px 4px 2px;
   }
   .footer--main-div {
     display: flex;
@@ -136,7 +145,7 @@ button:focus-visible {
   }
   .gif--div {
     max-width: 100%;
-    height: auto;
+    max-height: 45vh;
   }
   .search--label {
     width: 100%;
@@ -146,10 +155,11 @@ button:focus-visible {
   .input {
     /* font-family: 'Inter', sans-serif; */
     font-family: 'Bebas Neue', cursive;
-    text-indent: .2em;
+    text-indent: .3em;
     font-size: 1.5em;
     width: 100%;
     margin-bottom: 1vh;
+    background-color: rgb(240, 239, 239);
   }
   .logo {
     width: 100%;
